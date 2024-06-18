@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="formulario, html, css, practica">
+    <meta name="description" content="JavaScript">
+    <meta name="author" content="Alexandra Ferrera Arenas">
+    <link rel="stylesheet" href="estilo.css">
+    <title> Desarrollos JEREZ WEB </title>
+</head>
+
+<body>
+    <form method="get" action="" name="formulario1" id="formulario1">
+        <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" alt="indique su nombre" required>*
+            <span id="respuestaerror1"></span><br><br>
+        <label for="passw">Contraseña:</label>
+            <input type="password" id="passw" name="passw" alt="indique su contraseña" required>*
+            <span id="contras"></span><br><br>
+        <label for="nombre">DNI:</label>
+            <input type="text" id="dni" name="dni" alt="indique su DNI" required>*
+            <span id="dniMensaje"></span><br><br>
+        <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono"  name="telefono" alt="indique su telefono" placeholder="+34 956 44 23 75">
+            <span id="telMensaje"></span><br><br>   
+        <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" alt="indique su email" placeholder="ejemplo@ejemplo.es" required>*
+            <span id="emailMensaje"></span><br><br>
+        <label for="genero">Género:</label> 
+        <label for="masculino">&nbsp;&nbsp;&nbsp;Masculino:</label>
+            <input type="radio" id="masculino" name="genero" alt="valida hombre" value="masculino">&nbsp;&nbsp;&nbsp;
+        <label for="femenino">Femenino:</label>
+            <input type="radio" id="femenino" name="genero" alt="valida mujer" value="femenino">&nbsp;&nbsp;&nbsp;
+        <label for="Nobinario"> No binario:</label>   
+            <input type="radio" id="nobinario" name="genero" alt="indique genero" value="genero">
+            <span id="generoMensaje"></span><br><br>
+        <label for="fiestas">Elige 3 Fiestas Populares:</label> 
+                <input type="checkbox" name="fiestas" id="carnavales" alt="Check 1">
+            <label for="carnavales">Carnavales</label><br><br>
+                <input type="checkbox" name="fiestas" id="feria" alt="Check 2">
+            <label for="feria">Feria del caballo</label><br><br>
+                <input type="checkbox" name="fiestas" id="zambomba" alt="Check 2">
+            <label for="zambomba">Zambomba</label><br><br>
+                <input type="checkbox" name="fiestas" id="feria" alt="Check 2">
+            <label for="feria">Feria del caballo</label><br><br>
+
+        <button type="button" onclick="validaNombre()">VALIDAR</button>    
+        <input type="submit" id="enviar" value="ENVIAR" name="enviar" alt="pulsa para enviar"><br><br> 
+           
+    </form>
+
+    <script src="menu.js"></script>
+</body>
+</html>

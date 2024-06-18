@@ -1,0 +1,10 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+input[type="checkbox"]{
+    padding-left: 40px;
+}
+#enviar{
+    width: 3;
+}

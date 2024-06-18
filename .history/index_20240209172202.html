@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="formulario, html, css, practica">
+    <meta name="description" content="JavaScript">
+    <meta name="author" content="Alexandra Ferrera Arenas">
+    <link rel="stylesheet" href="estilo.css">
+    <title> Desarrollos JEREZ WEB </title>
+</head>
+
+<body>
+    <form method="get" action="" name="formulario1" id="formulario1">
+        <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" alt="indique su nombre" required>*
+            <span id="respuestaerror1"></span><br>
+        <label for="passw">Contraseña:</label>
+            <input type="password" id="passw" name="passw" alt="indique su contraseña" required><br><br>
+        <label for="nombre">DNI:</label>
+            <input type="text" id="dni" name="dni" alt="indique su DNI" required><br><br>
+        <button type="button" onclick="validaNombreVacio()">VALIDAR</button>    
+        <input type="submit" id="enviar" value="ENVIAR" name="enviar" alt="pulsa para enviar"><br><br>    
+    </form>
+
+    <script src="menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+input[name="fiestas"]{
+    padding-left: 40px;
+    padding: 20px;
+}
