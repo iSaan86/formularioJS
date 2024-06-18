@@ -6,9 +6,6 @@ Ejercicio en clase para practicar a validar formularios con JavaScript y HTML5.
 
 ![Mi portafolio](img/captura.jpg)
 
-## Ver ejemplo en vivo
-[[(https://github.com/iSaan86/formularioJS)](https://github.com/iSaan86/formularioJS)]
-
 ## Tecnologías Utilizadas
 
 - HTML5
