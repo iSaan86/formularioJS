@@ -1,6 +1,5 @@
 # Formulario con JavaScript 
 
-Creando mi portafolio desde 0 con HTML, CSS y próximamente JavaScript.
 Ejercicio en clase para practicar a validar formularios con JavaScript y HTML5.
 
 ## Captura de Pantalla
@@ -8,7 +7,7 @@ Ejercicio en clase para practicar a validar formularios con JavaScript y HTML5.
 ![Mi portafolio](img/captura.jpg)
 
 ## Ver ejemplo en vivo
-[https://isaan86.github.io/mi-Portafolio/](https://isaan86.github.io/mi-Portafolio/)
+[[(https://github.com/iSaan86/formularioJS)](https://github.com/iSaan86/formularioJS)]
 
 ## Tecnologías Utilizadas
 
